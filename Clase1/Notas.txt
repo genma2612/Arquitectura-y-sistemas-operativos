@@ -6,3 +6,10 @@ Lenguajes interpretados Y compilados. Partes genèricas. (Lenguajes intermedios)
 Ejemplo: Java. El usuario debe descargar primero la "base" (Java en sì). La aplicaciòn se executa mediante 
 el "mini-compilador" instalado en el sistema (Que se encarga de compilar segùn el sistema).
 
+Consola Linux: (Similar a la consola de Windows, distintos comandos)
+
+https://www.osboxes.org/
+
+https://www.raspberrypi.org/downloads/raspbian/
+
+Distros: deepin - Cali - santoku - parrot
