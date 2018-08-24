@@ -1,1 +1,8 @@
+Lenguaje de ensamblado: Primer nivel de abstracciòn. Assembler.
+
+Aplicacion compilada / Aplicacion interpretada
+
+Lenguajes interpretados Y compilados. Partes genèricas. (Lenguajes intermedios)
+Ejemplo: Java. El usuario debe descargar primero la "base" (Java en sì). La aplicaciòn se executa mediante 
+el "mini-compilador" instalado en el sistema (Que se encarga de compilar segùn el sistema).
 
