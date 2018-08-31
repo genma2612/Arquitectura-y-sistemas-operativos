@@ -1,0 +1,59 @@
+Arquitecturas de microprocesadores.
+
+Linea de comandos. UNIX = LINUX
+Unix corre en los grandes servidores. (Muy robusto, multitarea, multiusuario)
+Interprete de lineas de comando (Shell)
+Kernel -> Interfaz gráfica -> librerias -> Dos tipos de aplicaciones: 
+- Preinstaladas que ejecutan lineas de comando (Creacion de carpetas, por ejemplo)
+  llamados "utilitarios", es decir, son necesarios para el correcto funcionamiento del sistema operativo.
+- Aplicativos varios: Se utilizan para distintas cosas (Apps instaladas por el usuario, por ejemplo, un antivirus, un reproductor de video, etc).
+
+
+/: Inicio del arbol de directorios o "Root". Esto no quiere decir que sea el disco rígido.
+~: Dentro de mi usuario, tengo derechos.
+
+Comandos de consola de Linux:
+man: manual. 
+man man (Manual del manual)
+clear: Limpia la pantalla de la consola.
+ls (list): Lista elementos (subdirectorios indicado).
+pwd: (Print working directory)
+CD: <directorio> change directory
+mkdir: Crear directorio (carpeta)
+		[], para crear subdirectorios.
+rmdir: Borra directorio
+rm -rf: Borra directorio no vacio.
+tree: Lista elementos en forma arbolada
+mv: <source> <target> mueve directorio.
+whoami: Muestra el usuario actual.
+which <comando>: Muestra donde se encuentra el binario del comando.
+
+echo "hola"
+echo "hola" >> texto.txt (>> agrega)
+cat saludar.txt
+echo "hola" > texto.txt (> sobreescribe)
+history >> historial
+more
+less
+
+Punto de parcial: Crear un arbol de directorios en un solo comando.
+
+cd ../../ Una barra por nivel. 
+Tab completa el directorio ingresado.
+Tab Tab muestra los directorios a los que puedo ingresar en el nivel actual.
+
+sudo apt-get install tree
+
+EjerUno Empresa -> Economica -> Resumen
+				-> Empleados -> Resumen
+				-> Saldo -> Positivo -> Final
+						 -> Negativo -> Final
+						 
+mkdir -p Empresa/{{Economica,Empleados}/Resumen,Saldo{Positivo,Negativo}/Final}
+						 
+EjerDos Datos -> Personales -> Direccion
+							-> Sala -> Resumen
+			  -> Publicos -> Imagenes
+						  -> Textos
+						  -> Facturas -> Pagadas
+									  -> No Pagadas
