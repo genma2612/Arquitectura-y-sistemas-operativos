@@ -1,0 +1,56 @@
+--Clase 3
+
+Copyleft: Dejar el còdigo abierto a modo de "pago" por utilizar còdigo de otro.
+Al desarrollar una aplicaciòn utilizando còdigo ajeno, la aplicaciòn desarrollada debe mantenerse 
+como cod. abierto.
+
+- Open Source: Codigo abierto. No necesariamente gratis.
+- Free Software (Libre, no gratis): Se cobra por la "mano de obra" (Mantenimiento o configuraciòn)
+
+Licencias de Software:
+- Estrictamente privativa
+- Libre
+- Intermedia 
+Copyright©
+Licencia BSD: Permite el uso del código fuente en software no libre.
+FSF: La FSF elabora, mantiene y defiende la Licencia Pública General GNU (GNU GPL)
+OSI:
+CC:
+
+Ley de copyright: Cualquier dato generado es propio.
+Licencia de software: A partir de una ley de copyright, agrego o remuevo pautas. El usuario 
+su uso.
+Licencia de cod. abierto: Una licencia de código abierto es una licencia de 
+software que permite que tanto el código fuente como los archivos 
+binarios sean modificados y redistribuidos libremente y sin tener que pagar al autor original.
+La diferencia entre èstas licencias es la cant. de libertad que ofrece.
+Cod. abierto: El autor renuncia a ciertos derechos que le da el copyright de x pais.
+Cod. cerrado: El usuario puede renunciar a derechos (de privacidad generalmente).
+
+Cod. Fuente: No es fìsico, pero puede ser usado. Es tratado como un obj fìsico.
+
+- La libertad de ejecutar el programa como se desee, con cualquier propósito (libertad 0).
+- La libertad de estudiar cómo funciona el programa, y cambiarlo para que 
+  haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.
+- La libertad de redistribuir copias para ayudar a otros (libertad 2).
+- La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). 
+  Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de 
+  las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+  
+Shareware: Juegos con publicidad.
+
+https://hipertextual.com/archivo/2014/05/diferencias-software-libre-y-open-source/
+
+COMANDOS: 
+
+touch <nombre_de_archivo>: Modifica la fecha/hora de modificacion de un archivo o, de no existir, lo crea.
+
+
+Pròxima clase: Virtualizaciòn.
+
+
+
+
+
+
+;----------------------------------------------------------------------------------

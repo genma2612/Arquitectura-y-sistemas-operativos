@@ -1,0 +1,474 @@
+
+
+Por el cableado de los computadores
+
+El primer nivel de abstracción
+
+Para abstraer al programador del hardware del sistema.
+Para no tener que conocer la arquitectura del sistema
+
+Lenguaje que usa un compilador, para pasarlo a lenguaje de maquina
+
+Lenguaje que usa un intérprete, para traducir el código fuente a código de máquina.
+
+PHP
+JavaScript
+Python
+
+C
+JAVA
+C#(sharp)
+C++
+
+El software que permite la interacción con el hardware
+El software que administra la comunicación entre programas.
+
+Conjunto del kernel de Linux + aplicaciones fundamentales+ configuraciones del mismo.
+
+windows
+UNIX
+Mac OS
+Ubuntu
+
+linux
+El que muestra su código fuente.
+
+Windows
+word
+El que no me permite modificarlo
+El que debo pagar para usarlo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sistemas Operativos
+Puntos totales
+8/16
+ 
+Breve reseña de lo dictado en clase 
+Ingrese sus datos
+Apellido *
+Gonzalez
+Nombre *
+Manuel
+Correo electronico *
+manuelagustingonzalez@gmail.com
+GitHub *
+genma2612
+Turno *
+División *
+Unidad 1
+Lenguajes de programación
+ 
+Las primeras formas de programar eran por... *
+1/1
+Modificación de los datos ingresados
+Por el cableado de los computadores
+ 
+Por discos Rígidos virtuales
+ 
+¿Qué es un lenguaje de maquina?
+…
+/1
+La comunicación entre dos dispositivos
+ 
+El lenguaje universal de las redes
+El lenguaje que se escribe en C o C++.
+sonidos electronicos
+No hay respuestas correctas
+ 
+¿Qué es el Assembler? *
+1/1
+El lenguaje maquina
+El nombre del creador del primer leguaje
+El primer nivel de abstracción
+ 
+La marca del primer Software
+ 
+¿Para qué el lenguaje de alto nivel? *
+1/1
+Para abstraer al programador del hardware del sistema.
+ 
+Para mejorar el rendimiento del hardware
+No es más que una secuencia de dígitos binarios
+Para no tener que conocer la arquitectura del sistema
+ 
+ 
+¿Qué es un lenguaje compilado? *
+0/1
+Lenguaje de maquina.
+ 
+Lenguaje que usa un compilador, para pasarlo a lenguaje de maquina
+ 
+Lenguaje que se genera a partir de un lenguaje interpretado
+Lenguaje que usa un intérprete, para traducir el código fuente a código de máquina.
+Es linux
+ 
+Es Windows
+ 
+Todos los sistemas operativos
+ 
+Respuesta correcta
+Lenguaje que usa un compilador, para pasarlo a lenguaje de maquina
+ 
+¿Qué es un lenguaje Interpretado *
+Lenguaje de maquina
+Lenguaje que usa un compilador, para pasarlo a lenguaje de maquina
+Lenguaje que se genera a partir de un lenguaje interpretado
+ 
+Lenguaje que usa un intérprete, para traducir el código fuente a código de máquina.
+ 
+Es linux
+Es windows
+Todos los sistemas operativos
+Respuesta correcta
+Lenguaje que usa un intérprete, para traducir el código fuente a código de máquina.
+ 
+¿Cuales de estos son lenguajes Interpretados? *
+1/1
+C
+PHP
+ 
+JavaScript
+ 
+JAVA
+C#(sharp)
+Python
+ 
+C++
+ 
+¿Cuales de estos son lenguajes Compilados? *
+1/1
+C
+ 
+PHP
+JavaScript
+JAVA
+ 
+C#(sharp)
+ 
+Python
+C++
+ 
+Unidad 2
+Elementos fundamentales de los sistemas operativos
+Kernel
+
+ 
+El Kernel es: *
+0/1
+El software que primero que ve el usuario
+El código fuente de linux
+ 
+Un tipo de sistema operativo
+El software que permite la interacción con el hardware
+ 
+El software que administra la comunicación entre programas.
+Es el intérprete de línea de comandos o command-line shells.
+Es la interfaz gráfica
+Respuesta correcta
+El software que permite la interacción con el hardware
+El software que administra la comunicación entre programas.
+ 
+Todos los S.O. tienen intérprete de línea de comandos (consola) *
+1/1
+si
+ 
+no
+ 
+¿A qué nos referimos con distribución? *
+0/1
+Conjunto del kernel de Linux + aplicaciones fundamentales+ configuraciones del mismo.
+ 
+La forma libre del software
+ 
+El kernel de una empresa determinada
+Una nueva versión de linux
+ 
+Una nueva versión del kernel de linux
+Respuesta correcta
+Conjunto del kernel de Linux + aplicaciones fundamentales+ configuraciones del mismo.
+ 
+¿Cuales de estos son sistemas operativos? *
+Ubuntu
+ 
+windows
+ 
+UNIX
+ 
+Mac OS
+ 
+Excel
+kernel
+Gnome
+ 
+KDE
+Visual Studio
+Respuesta correcta
+windows
+UNIX
+Mac OS
+Ubuntu
+ 
+¿Qué es el GNU? *
+…
+/2
+El conjunto de programas y configuraciones de una distribuciòn.
+Unidad 3
+Entendiendo  los  distintos  tipos  de  licencia de software 
+ 
+¿Cuál es el software de código abierto ? *
+1/1
+solo programas gratis
+linux
+ 
+Windows
+word
+El que muestra su código fuente.
+ 
+El que se programó y no se compiló
+El que no me permite modificarlo
+El que debo pagar para usarlo
+ 
+¿Cuál es el software Privativo ? *
+0/1
+solo programas gratis
+linux
+Windows
+ 
+word
+ 
+El que muestra su código fuente.
+El que se programó y no se compiló
+El que no me permite modificarlo
+ 
+El que debo pagar para usarlo
+Respuesta correcta
+Windows
+word
+El que no me permite modificarlo
+El que debo pagar para usarlo
+ 
+¿Cuales son las libertades del software según el FSF? *
+…
+/1
+Modificaciòn, distribuciòn.
+¿Qué es el Copyright? *
+Derechos que se reserva un autor sobre su obra.
+ 
+¿Existe el copyleft ? *
+1/1
+si
+ 
+no
+Virtualización
+Maquinas virtuales
+¿Qué es el virtualización ? *
+¿Qué es el hipervisor ? *
+¿Puedo virtualizar sistemas operativos de 64 bits en equipos de 32 bits ? *
+Si
+No
+Solo en intel
+Solo en AMD
+Según la RAM
+Otro:
+¿Puedo tener distintas redes dentro de la virtualizacion ? *
+Si
+No
+Según las placas de red de mi maquina
+Solo en linux
+Solo en UNIX
+Otro:
+¿Qué mejoras trae la virtualizacion ? *
+¿Que ítem tengo que habilitar en la bios ? *
+Virtual/amd
+virtual/intel
+virtualization
+Puede ser cualquiera de las tres primeras
+Nada
+no se
+virtualBox
+Otro:
+¿Cual de estos software sirve para virtualizar ? *
+virtualbox
+vmware
+Hyper-v
+Mongo
+Ubuntu
+Creo alguna maquina virtual alguna vez *
+Si
+NO
+Virtualización Fecha de practica
+¿Cuando fue la última vez? *
+Esta última semana
+Hace menos de un mes
+En el último semestre
+En el último año
+Virtualización Practicando
+Virtualización 
+¿Cuándo piensa practicar el tema?
+la semana que viene
+El Próximo mes
+Antes del parcial
+Solo si lo necesito
+nunca
+Solo si despruebo
+Comando de consola
+Los comandos
+Que diferencia existe entre el comando CAT y el MORE *
+Uno muestra y otro modifica
+Ninguna
+El cat es para procesos y el otro de archivos
+El more es para procesos y el otro de archivos
+La manera en que muestran la información
+Otro:
+¿Cuál es la instrucción para acceder desde el HOME al siguiente directorio del HOME /datos/alumnos/referencia/? *
+¿Cuál es la instrucción para escribir desde el HOME, en el archivo Saludo.txt, el texto " echo 'hola' " en el /datos/alumnos/referencia/? *
+¿Qué pasa si la instrucción para escribir , es sobre un archivo que no existe? *
+Lo crea
+Dar error
+NO lo crea, ni da error
+Otro:
+¿Qué pasa si la instrucción para escribir , es sobre uno o más Directorios que no existen? *
+Los crea
+Dar error
+No lo creas ni da error
+Otro:
+¿Cuál es la instrucción para escribir desde el HOME, en el archivo Saludo.txt, el texto " echo 'Chau' ", sobreescribiendo lo que tiene? *
+¿Cuál es la instrucción para escribir desde el HOME, en el archivo Saludo.txt, el texto " echo 'hola' " , manteniendo los datos anteriores?
+¿Cuál es la instrucción para hacer ejecutable el archivo Saludo.txt ? *
+¿Cuál es la instrucción desde el home para ejecutar el archivo Saludo.txt? *
+¿Cuál es la instrucción desde el home/datos/alumnos/fotos/ para ejecutar el archivo Saludo.txt? *
+¿Para qué sirve el comando man? *
+Saber el nombre de ususario actual
+para manipular procesos
+para ver la utilización de un comando
+para dar atributos de hombre a un usuario
+Otro:
+Memorias Primarias
+Cuál es mas Rápida?
+RAM
+Cache L1
+Registro
+Disco Rígido estado sólido
+LVM y RAID
+¿Que es una partición primaria?
+¿cuantas puede tener un disco rígido ?
+1
+2
+3
+4
+5
+6
+infinitos
+Otro:
+¿Que Tipos de partición nos crea por defecto linux?
+84
+83
+8e
+lvm
+fat32
+ntfs
+linux
+ext4
+ext3
+swap
+sdb
+sdb1
+md0
+fd
+¿Que Tipos es necesario para LVM?
+84
+83
+8e
+lvm
+fat32
+ntfs
+linux
+ext4
+ext3
+swap
+sdb
+sdb1
+md0
+fd
+¿RAID , Cual es?
+84
+83
+8e
+lvm
+fat32
+ntfs
+linux
+ext4
+ext3
+swap
+sdb
+sdb1
+md0
+fd
+¿Que términos están relacionados con LVM?
+sdb1
+PV
+VP
+VG
+GV
+pvcreate
+lvmcreate
+sdbcreate
+mapper
+¿Que es RAID 0(cero)?
+¿Que es RAID 1(uno)?
+¿Que cantidad mínima de disco rígidos necesito para LVM?
+¿Que cantidad mínima de disco rígidos necesito para RAID 0(cero)?
+¿Que cantidad mínima de disco rígidos necesito para RAID 1(uno)?
+¿Puedo usar RAID (cero) y RAID (uno) combinado?
+si
+no
+Otro:
+¿Puedo usar RAID (cero) y LVM combinado?
+si
+no
+Otro:
+¿Puedo usar RAID (UNO) y LVM combinado?
+si
+no
+Otro:
+¿Puedo usar RAID (cero)y RAID(uno) y LVM combinado?
+si
+no
+Otro:
+¿Cual es la diferencia entre LVM y RAID?
+Este contenido no ha sido creado ni aprobado por Google. - Condiciones del servicio - Otros términos
+Google Formularios
+
+
+
+
+
+
+
+
+
+
+
+
+;----------------------------------------------------------------------------------
