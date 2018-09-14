@@ -1,0 +1,27 @@
+Microprocesador: Sumador que apunta a otros sumadores que apuntan a otros sumadores. Sòlo realiza operaciones 
+aritmeticas a alta velocidad. 
+Memoria de control: Su función es buscar las instrucciones en la memoria principal, decodificarlas (interpretación)
+y ejecutarlas, empleando para ello la unidad de proceso.
+Emulaciòn: Desventaja principal: mayores recursos que lo que quiero emular.
+Procesos que solìan ser de hardware pasaron a ser de software. (Mediante un bus principal y drivers)
+En algunos sistemas, la RAM libre està siendo "desperdiciada".
+Fidelidad:
+Aislamiento: Maquinas virtuales no afectan al host.
+Rendimiento: Trata de emular el rendimiento. No deberìa haber diferencia de desempeño.
+Ventajas principales: Multiples computadoras de servidores en un host poderoso.
+Servidores utilizan hipervisor tipo 1.
+Para "transladar" la maquina virtual, es aconsejable que el disco virtual reserve su tamaño completo.
+
+sd# discos Linux
+fdisk
+mkfs comando make file system.
+mount 
+unmount
+df sdx info de disco y particiones
+du tamaño de un archivo
+
+Particiones primarias, extendidas y lògicas.
+
+Ejercicio:
+Dos Discos rìgidos (4GB y 6GB) El de 4, ocupado en una particion.
+El de 6, una particion de 3GB. Dentro de de la particion, una carpeta llamada /datos/info.txt con la informacion del disco de 4GB
