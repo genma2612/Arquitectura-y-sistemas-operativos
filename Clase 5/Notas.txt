@@ -1,0 +1,45 @@
+Ejercicio: 
+Crear 3 discos. 5GB (2GB /Juegos, 3GB /App ),6GB (4GB /Fotos),7GB (2GB /Datos, 3GB /info, 1GB /backup)
+
+Temas de parcial:
+Comandos de Linux, Lenguajes de programacion, Elementos fundamentales de los sistemas operativos,
+Licencias de software, Virtualizacion, Estructura de directorio y punto de montaje.
+
+lvm tipo de datos de particion para agrupar particiones.
+Para Unix/Linux todo dispositivo es un archivo. 
+Todo es un archivo, incluso los directorios.
+La consola es un archivo de cada sub-directorio.
+
+directorios estaticos y no estaticos. 
+Ejemplos estaticos: bin, Opt, boot.
+Ejemplos dinamicos: var, 
+
+Sub-directorio compartido o no compartido. 
+
+etc: archivos de configuracion.
+var: archivos temporales (cache, http, etc).
+proc: todo lo que pasa en el sistema.
+tipos de archivo: archivos comunes, archivos directorios (contienen otros archivos o directorios), 
+archivos especiales (representan a los dispositivos)
+
+Cosas a tener en cuenta para nombrar archivos: 255 caracteres max (8 bits), es case-sentive, inodos y enlaces.
+inodo: representacion del archivo y el nombre. Es un enlace a una direccion del disco rìgido.
+comandos:
+ln x y genera un enlace fisico
+ln -s x y genera un enlace lògico (acceso directo)
+
+ejercicio:
+crear 3 archivos: archivo.txt, foto.jpg, base.dat > " " y comprimirlas
+tar -cvf nombre.extension nombreDeArchivoODirectorioAComprimir 
+ej: tar -cvf backup.zip alumno
+ver archivo comprimido por consola:
+tar -tf nombreDeArchivo
+
+Permisos
+chown cambiar propietario usuario:grupo
+chmod XXX nombreDeArchivo
+
+Windows: Relacion Fisica-Logica
+Linux: 
+
+Registrar montajes en fstab
