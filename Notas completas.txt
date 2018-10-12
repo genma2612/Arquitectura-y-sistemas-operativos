@@ -84,6 +84,200 @@ EjerDos Datos -> Personales -> Direccion
 									  -> No Pagadas
 									  
 ;----------------------------------------------------------------------------------
-									  
+	
+--Clase 3
+
+Copyleft: Dejar el còdigo abierto a modo de "pago" por utilizar còdigo de otro.
+Al desarrollar una aplicaciòn utilizando còdigo ajeno, la aplicaciòn desarrollada debe mantenerse 
+como cod. abierto.
+
+- Open Source: Codigo abierto. No necesariamente gratis.
+- Free Software (Libre, no gratis): Se cobra por la "mano de obra" (Mantenimiento o configuraciòn)
+
+Licencias de Software:
+- Estrictamente privativa
+- Libre
+- Intermedia 
+Copyright©
+Licencia BSD: Permite el uso del código fuente en software no libre.
+FSF: La FSF elabora, mantiene y defiende la Licencia Pública General GNU (GNU GPL)
+OSI:
+CC:
+
+Ley de copyright: Cualquier dato generado es propio.
+Licencia de software: A partir de una ley de copyright, agrego o remuevo pautas. El usuario 
+su uso.
+Licencia de cod. abierto: Una licencia de código abierto es una licencia de 
+software que permite que tanto el código fuente como los archivos 
+binarios sean modificados y redistribuidos libremente y sin tener que pagar al autor original.
+La diferencia entre èstas licencias es la cant. de libertad que ofrece.
+Cod. abierto: El autor renuncia a ciertos derechos que le da el copyright de x pais.
+Cod. cerrado: El usuario puede renunciar a derechos (de privacidad generalmente).
+
+Cod. Fuente: No es fìsico, pero puede ser usado. Es tratado como un obj fìsico.
+
+- La libertad de ejecutar el programa como se desee, con cualquier propósito (libertad 0).
+- La libertad de estudiar cómo funciona el programa, y cambiarlo para que 
+  haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.
+- La libertad de redistribuir copias para ayudar a otros (libertad 2).
+- La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). 
+  Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de 
+  las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+  
+Shareware: Juegos con publicidad.
+
+https://hipertextual.com/archivo/2014/05/diferencias-software-libre-y-open-source/
+
+COMANDOS: 
+
+touch <nombre_de_archivo>: Modifica la fecha/hora de modificacion de un archivo o, de no existir, lo crea.
 
 
+Pròxima clase: Virtualizaciòn.
+
+
+
+
+
+
+;----------------------------------------------------------------------------------
+
+Clase 4----
+
+Microprocesador: Sumador que apunta a otros sumadores que apuntan a otros sumadores. Sòlo realiza operaciones 
+aritmeticas a alta velocidad. 
+Memoria de control: Su función es buscar las instrucciones en la memoria principal, decodificarlas (interpretación)
+y ejecutarlas, empleando para ello la unidad de proceso.
+Emulaciòn: Desventaja principal: mayores recursos que lo que quiero emular.
+Procesos que solìan ser de hardware pasaron a ser de software. (Mediante un bus principal y drivers)
+En algunos sistemas, la RAM libre està siendo "desperdiciada".
+Fidelidad:
+Aislamiento: Maquinas virtuales no afectan al host.
+Rendimiento: Trata de emular el rendimiento. No deberìa haber diferencia de desempeño.
+Ventajas principales: Multiples computadoras de servidores en un host poderoso.
+Servidores utilizan hipervisor tipo 1.
+Para "transladar" la maquina virtual, es aconsejable que el disco virtual reserve su tamaño completo.
+
+sd# discos Linux
+fdisk
+mkfs comando make file system.
+mount 
+unmount
+df sdx info de disco y particiones
+du tamaño de un archivo
+
+Particiones primarias, extendidas y lògicas.
+
+Ejercicio:
+Dos Discos rìgidos (4GB y 6GB) El de 4, ocupado en una particion.
+El de 6, una particion de 3GB. Dentro de de la particion, una carpeta llamada /datos/info.txt con la informacion del disco de 4GB								  
+
+;----------------------------------------------------------------------------------
+
+Clase 5---
+
+Ejercicio: 
+Crear 3 discos. 5GB (2GB /Juegos, 3GB /App ),6GB (4GB /Fotos),7GB (2GB /Datos, 3GB /info, 1GB /backup)
+
+Temas de parcial:
+Comandos de Linux, Lenguajes de programacion, Elementos fundamentales de los sistemas operativos,
+Licencias de software, Virtualizacion, Estructura de directorio y punto de montaje.
+
+lvm tipo de datos de particion para agrupar particiones.
+Para Unix/Linux todo dispositivo es un archivo. 
+Todo es un archivo, incluso los directorios.
+La consola es un archivo de cada sub-directorio.
+
+directorios estaticos y no estaticos. 
+Ejemplos estaticos: bin, Opt, boot.
+Ejemplos dinamicos: var, 
+
+Sub-directorio compartido o no compartido. 
+
+etc: archivos de configuracion.
+var: archivos temporales (cache, http, etc).
+proc: todo lo que pasa en el sistema.
+tipos de archivo: archivos comunes, archivos directorios (contienen otros archivos o directorios), 
+archivos especiales (representan a los dispositivos)
+
+Cosas a tener en cuenta para nombrar archivos: 255 caracteres max (8 bits), es case-sentive, inodos y enlaces.
+inodo: representacion del archivo y el nombre. Es un enlace a una direccion del disco rìgido.
+comandos:
+ln x y genera un enlace fisico
+ln -s x y genera un enlace lògico (acceso directo)
+
+ejercicio:
+crear 3 archivos: archivo.txt, foto.jpg, base.dat > " " y comprimirlas
+tar -cvf nombre.extension nombreDeArchivoODirectorioAComprimir 
+ej: tar -cvf backup.zip alumno
+ver archivo comprimido por consola:
+tar -tf nombreDeArchivo
+tar -xvf nombreDeArchivo
+
+Permisos
+chown cambiar propietario usuario:grupo
+chmod XXX nombreDeArchivo
+
+Windows: Relacion Fisica-Logica
+Linux: 
+
+Registrar montajes en fstab
+
+;----------------------------------------------------------------------------------
+
+Clase 6---
+
+Parcial
+
+;----------------------------------------------------------------------------------
+
+Clase 7---
+
+Repositorios
+Paquetes: Comandos
+
+RPM - Red Hat
+.deb - Debian
+apt - Ubuntu
+aptitud - Ubuntu
+yum - Red Hat
+
+Verifican repositorios y actualizan paquetes.
+
+/etc/apt
+
+/var/lib librerias de programas instalados
+
+/var/lib/apt
+
+sudo apt-get update actualiza paquete en /var/cache
+sudo apt-get check chequea version
+sudo apt-get upgrade acualiza sistema
+
+sudo apt-get install <nombre de aplicacion>
+sudo apt-get install <nombre de aplicacion> -f instala la aplicacion con las dependencias necesarias.
+sudo apt-get install mc
+sudo apt-get install --reinstall mc
+sudo apt-get remove <nombre de aplicacion> remueve la aplicacion
+sudo apt-get purge <nombre de aplicacion> remueve la aplicacion y la configuracion
+
+/var/cache se guardan los paquetes.
+
+sudo apt-get clean borra los paquetes en cache
+sudo apt-get autoclean detecta que paquete no esta siendo utilizado y lo remueve.
+
+sudo apt-get autoremove elimina las dependencias de programas que no estan más.
+
+apt-cache search <paquete> Busqueda
+apt-cache policy <paquete> informacion del paquete.
+apt-cache showpkg <paquete> informacion del paquete /var/lib/aptlist
+
+dpkg -i paquete.deb
+dpkg -l | more
+dpkg -L mc | more
+dpkg -R mc desinstala el paquete
+	 --configure
+dpkg -S /bin/<paquete> a donde pertenece.
+dpkg -S usr/bin/<paquete>
+
+steam OS. Lakka, Ubuntu Game Pack, sparky Linux, spin fedora Games

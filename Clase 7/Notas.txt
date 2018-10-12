@@ -1,0 +1,50 @@
+Clase 7---
+
+Repositorios
+Paquetes: Comandos
+
+RPM - Red Hat
+.deb - Debian
+apt - Ubuntu
+aptitud - Ubuntu
+yum - Red Hat
+
+Verifican repositorios y actualizan paquetes.
+
+/etc/apt
+
+/var/lib librerias de programas instalados
+
+/var/lib/apt
+
+sudo apt-get update actualiza paquete en /var/cache
+sudo apt-get check chequea version
+sudo apt-get upgrade acualiza sistema
+
+sudo apt-get install <nombre de aplicacion>
+sudo apt-get install <nombre de aplicacion> -f instala la aplicacion con las dependencias necesarias.
+sudo apt-get install mc
+sudo apt-get install --reinstall mc
+sudo apt-get remove <nombre de aplicacion> remueve la aplicacion
+sudo apt-get purge <nombre de aplicacion> remueve la aplicacion y la configuracion
+
+/var/cache se guardan los paquetes.
+
+sudo apt-get clean borra los paquetes en cache
+sudo apt-get autoclean detecta que paquete no esta siendo utilizado y lo remueve.
+
+sudo apt-get autoremove elimina las dependencias de programas que no estan más.
+
+apt-cache search <paquete> Busqueda
+apt-cache policy <paquete> informacion del paquete.
+apt-cache showpkg <paquete> informacion del paquete /var/lib/aptlist
+
+dpkg -i paquete.deb
+dpkg -l | more
+dpkg -L mc | more
+dpkg -R mc desinstala el paquete
+	 --configure
+dpkg -S /bin/<paquete> a donde pertenece.
+dpkg -S usr/bin/<paquete>
+
+steam OS. Lakka, Ubuntu Game Pack, sparky Linux, spin fedora Games
