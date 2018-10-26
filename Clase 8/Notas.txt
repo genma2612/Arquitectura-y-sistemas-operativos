@@ -1,0 +1,52 @@
+Memoria: medio que nos permite almacenar informaciòn. Puede ser electrònica o de cualquier
+tipo que pueda convertirse a binario. Dispositivo que almacena bytes. (Puede ser electrònico o fìsicos, como los CD's)
+Tienen dos tipos de accesos que podemos lograr: 
+Acceso secuencial: Algoritmia de punteros en C.
+Acceso aleatorio: Permite poder acceder al "1" y al "100" sin tener que recorrer al 2,3,4,etc. Tarda lo mismo al acceder
+a una posiciòn u otra, ya que se le indica la direcciòn.
+Las memorias comenzaron siendo secuenciales hasta que la tecnologìa electrònica comenzò a reemplazar a la magnètica.
+Actualmente se dispone de los dos tipos de memorìa. 
+
+Uno de los factores que define la diferencia de precio entre CPU's es la memoria cachè, muy determinante en la 
+velocidad (Aprovecha mejor el poder del microprocesador) del CPU.
+Cache L1: Pegada al microprocesador. L2 y L3: Separadas pero dentro del chipset.
+
+Registro del CPU: Velocidad màxima con la que contamos.
+ROM de control: Microinstrucciones que se van a ejecutar para que funcione la computadora. Escribe y lee
+sobre el registro. Define la velocidad de lectura y escritura.
+
+Memoria virtual: Utilizaciòn de disco rìgido como memoria RAM. (pagesys Windows)
+
+Memoria RAM: 
+
+Android: Memoria RAM vacia es memoria RAM desperdiciada.
+
+Dispositivos de almacenamiento no volàtil (Disco rìgido, pendrive, cd, diskette, etc)
+
+Diferencias principales: Tamaño, velocidad de acceso, cant. de memoria (cercanas a microprocesador es menor, bytes, kbytes)
+reemplazos (Ejemplos, RAM puede ser facilmente reemplazable, Cachè L1 està integrada a procesador).
+
+Microprocesador risc: Mayor aprovechamiento de la memoria. Procesos màs pequeños siempre y cuando no sean
+procesor complejos que requieran todo el uso del procesador. (reducido)
+Microprocesador cisc: (Complejo)
+
+Estas arquitecturas utilizaràn la memoria como estè definido en su ROM de control.
+
+El costo y el uso a la hora de armar un sistema para calcular el costo (Memoria, procesador, almacenamiento).
+Memoria virtual: Translada procesos volcados en la RAM (traducido a binario), es màs ràpido volver a buscarlo de ahì
+que volver a ejecutarlo.
+
+Particionamiento de disco: 4 particiones primarias (deciden que particion inicia)
+Guardado de informaciòn en disco rìgido: Problema de almacenar archivos: Decidir cuàl es el 
+tamaño mìnimo (Tipo de almacenamiento determina la forma y tamaños/limites, ej Fat32, Fat16, ntfs elegido al formatear).
+
+Todos los archivos contiene la informaciòn de su creaciòn, modificaciòn y ùltimo acceso.
+
+RAID 0: Combina discos, datos divididos.
+RAID 1: Dos discos como espejo.
+
+comandos:
+
+free -m muestra memoria
+cat opt/prop/meminfo
+ 
