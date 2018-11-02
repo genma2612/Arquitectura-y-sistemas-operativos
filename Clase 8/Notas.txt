@@ -44,6 +44,7 @@ Todos los archivos contiene la informaciòn de su creaciòn, modificaciòn y ùltimo
 
 RAID 0: Combina discos, datos divididos.
 RAID 1: Dos discos como espejo.
+RAID 5: 
 
 comandos:
 
