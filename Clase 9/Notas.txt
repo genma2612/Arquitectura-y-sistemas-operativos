@@ -11,7 +11,7 @@ git push <origin> <master>
 git diff ver diferencias entre working area y stage areas.
 git remote
 git branch <nombre> verifica en que rama estoy.
-git checkout <nombre de rama> cambia de rama.
+git checkout <nombre de rama> cambia de rama. Aunque no la muestra el Git Branch
 En un solo paso: git checkout -b <nombre de rama> crea rama y cambia a ella.
 git merge <nombre de rama> toma codigo de un branch y lo mete en otro.
 git pull <>

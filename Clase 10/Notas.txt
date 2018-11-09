@@ -1,0 +1,12 @@
+Master: prototipo de la aplicaciòn. Generalmente la parte visual funcional. (Siempre funcionando sin errores). El master
+es lo que se le muestra al cliente durante el desarrollo.
+Dev UI: Desarrollo de user interface.
+Dev UI Test: Testeo de Dev UI.
+Test: ...
+
+Procesos:
+A diferencia de las funciones, no recibìan parametros. Eran autònomos.
+Inicio: 1-Bios (verificaciones de dispositivos) -> 2-Sistema operativo (Punto de arranque que ejecuta todos los demàs procesos o bootloader)
+Linux: grub, serie de configuraciones de inicio. Windows: Master boot record. -> Bootloader apunta a la direcciòn de memorìa donde se encuentra
+el punto de arranque, comenzando por el -> 3-Kernel (Carga los drivers y las configuraciones). -> 4-Init (Primer proceso en memoria, planificacion 
+de los procesos)
