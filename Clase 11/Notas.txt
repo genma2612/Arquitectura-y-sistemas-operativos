@@ -1,0 +1,27 @@
+Comandos:
+id: muestra el usuario, los grupos, etc
+id <usuario>: Muestra el usuario con sus grupos.
+cat /etc/passwd: Muestra el registro de usuarios. Pueden editarlo quienes tengan permisos root.
+cat /etc/shadow: Se guardan las passwords.
+useradd: Crea un usuario.
+sudo usseradd -s /bin/bash -m -c "Usuario de Prueba" Prueba1
+sudo usseradd -s /bin/bash -m -c "Usuario de Prueba" Prueba1 -d 
+egrep <palabra> <archivo>: La linea en la cual se encuentra la palabra a buscar. ej. egrep prueba /etc/passwd
+passwd <usuario>: cambia el password (Sin usuario, cambia el actual).
+sudo login <usuario>: cambia de usuario.
+su <usuario>: los como root
+su - <usuario>: log y manda a una carpeta en la que el user tenga permisos.
+
+Trabajo:
+Sobre un usuario, crear carpetas y darle permisos para que los demàs usuarios puedan acceder.
+
+Usuarios: Owner, Admin, Test, Desarrollo
+
+Grupos Dev y Testing
+
+1 crear los grupos
+2 que desarrollo pertenezca a Dev
+3- que test pertenezca a testing
+4 que owner pertenezca a los dos grupos
+5 crear la carpeta "/datos" en "/"
+6 cambiar permisos para dato RWX RW- ---

@@ -343,13 +343,42 @@ cat opt/prop/meminfo
 
 Clase 9---
 
+Git: Parte de la necesidad del desarrollo del kernel de Linux. El sistema anterior se volviò pago (bitkeeper).
 
+git init: crea un nuevo repositorio local
+git status
+git add . guarda todos los archivos "en rojo" del area de trabajo y los vuelca a lo que se va a "commitear"
+git commit -m "Primer commit"
+git log
+git clon <url>
+git config --list
+git push <origin> <master>
+git diff ver diferencias entre working area y stage areas.
+git remote
+git branch <nombre> verifica en que rama estoy.
+git checkout <nombre de rama> cambia de rama. Aunque no la muestra el Git Branch
+En un solo paso: git checkout -b <nombre de rama> crea rama y cambia a ella.
+git merge <nombre de rama> toma codigo de un branch y lo mete en otro.
+git pull <>
 
 ;----------------------------------------------------------------------------------
 
 Clase 10---
 
+Master: prototipo de la aplicaciòn. Generalmente la parte visual funcional. (Siempre funcionando sin
+errores). El master es lo que se le muestra al cliente durante el desarrollo.
+Dev UI: Desarrollo de user interface.
+Dev UI Test: Testeo de Dev UI.
+Test: ...
 
+Procesos:
+A diferencia de las funciones, no recibìan parametros. Eran autònomos.
+Inicio: 1-Bios (verificaciones de dispositivos) -> 2-Sistema operativo (Punto de arranque que ejecuta 
+todos los demàs procesos o bootloader)
+Linux: grub, serie de configuraciones de inicio. Windows: Master boot record. -> Bootloader apunta a la 
+direcciòn de memorìa donde se encuentra
+el punto de arranque, comenzando por el -> 3-Kernel (Carga los drivers y las 
+configuraciones). -> 4-Init (Primer proceso en memoria, planificacion de los procesos)
 
 ;----------------------------------------------------------------------------------
 
