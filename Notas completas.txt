@@ -384,6 +384,79 @@ configuraciones). -> 4-Init (Primer proceso en memoria, planificacion de los pro
 
 Clase 11---
 
+Comandos:
+id: muestra el usuario, los grupos, etc
+id <usuario>: Muestra el usuario con sus grupos.
+cat /etc/passwd: Muestra el registro de usuarios. Pueden editarlo quienes tengan permisos root.
+cat /etc/shadow: Se guardan las passwords.
+useradd: Crea un usuario.
+sudo usseradd -s /bin/bash -m -c "Usuario de Prueba" Prueba1
+sudo usseradd -s /bin/bash -m -c "Usuario de Prueba" Prueba1 -d 
+egrep <palabra> <archivo>: La linea en la cual se encuentra la palabra a buscar. ej. egrep prueba /etc/passwd
+passwd <usuario>: cambia el password (Sin usuario, cambia el actual).
+sudo login <usuario>: cambia de usuario.
+su <usuario>: los como root
+su - <usuario>: log y manda a una carpeta en la que el user tenga permisos.
 
+Trabajo:
+Sobre un usuario, crear carpetas y darle permisos para que los demàs usuarios puedan acceder.
+
+Usuarios: Owner, Admin, Test, Desarrollo
+
+Grupos Dev y Testing
+
+1 crear los grupos
+2 que desarrollo pertenezca a Dev
+3- que test pertenezca a testing
+4 que owner pertenezca a los dos grupos
+5 crear la carpeta "/datos" en "/"
+6 cambiar permisos para dato RWX RW- ---
 
 ;----------------------------------------------------------------------------------
+
+codigo parcial:
+
+git checkout master
+git pull origin master
+git merge test
+git push origin master
+
+//Crear usuario
+	useradd [opciones] nombre-usuario
+	sudo usseradd -s /bin/bash -m -c "Usuario de Prueba" Prueba1
+
+    -g: Grupo principal que queremos tenga el usuario (debe existir previamente)
+    -d: Carpeta home del usuario. Suele ser /home/nombre-usuario
+    -m: Crear carpeta home si es que no existe.
+    -s: Intérprete de comandos (shell) del usuario. Suele ser /bin/bash
+
+// Establecer la contraseña del usuario
+    sudo passwd Prueba1
+
+El comando usermod permite cambiar el nombre del usuario, su carpeta home, su intérprete 
+de comandos, los grupos a los que pertenece y algunos otros parámetros.
+
+// Cambiar el home de un usuario
+    sudo usermod -d /home/Prueba1 Prueba1
+
+// Eliminación de un usuario
+    sudo userdel -r Prueba1 (-r eliminará también su carpeta home)
+
+// Añadir un grupo
+    sudo groupadd nombre_grupo 
+
+// Cambiar el nombre del grupo 
+    sudo groupmod -n nuevo_nombre_grupo nombre_grupo
+	
+// Cambiar el gid del grupo
+    sudo groupmod -g 2000 nombre_grupo
+
+// Eliminación de un grupo
+    sudo groupdel profesores
+	Si algún usuario tuviera dicho grupo como grupo primario, el comando groupdel no eliminará el grupo.
+
+// Añadir a 'user_name' al grupo 'nombre_grupo'
+    sudo adduser user_name nombre_grupo
+
+// Quitar a 'user_name' del grupo 'nombre_grupo'
+    sudo deluser user_name nombre_grupo 
